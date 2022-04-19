@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Space+Mono&display=swap");
+:root {
+    --size: 3rem;
+}
+
+* {
+    margin: 0;
+    font-family: "Cutive Mono", monospace;
+}
+
+body {
+    background: #151515;
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.clock {
+    display: inline-block;
+    font-size: 16vw;
+    width: 100%;
+    user-select: none;
+}
+
+.date {
+    display: inline-block;
+    font-size: 6vw;
+    width: 100%;
+    user-select: none;
+}
+
+.btn {
+    display: inline-block;
+    color: inherit;
+    background-color: transparent;
+    width: 100%;
+    font-style: italic;
+    font-size: 1vw;
+    padding-top: 2%;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+/* ----------------------THEMES----------------------*/
+
+
+/* ----------------------DARK----------------------*/
+
+.-chroma {
+    color: #f1f1f1;
+    background: #151515;
+    text-shadow: 2px 2px blue, 4px 4px red, 6px 6px green;
+}
+
+.-gruvbox {
+    color: #98971a;
+    background-color: #1d2021;
+    text-shadow: 2px 2px #cc241d, 4px 4px #d79921, 6px 6px #458588;
+}
+
+.-onedark {
+    color: #56b6c2;
+    background-color: #282c34;
+    text-shadow: 2px 2px #e06c75, 4px 4px #98c379, 6px 6px #e5c07b;
+}
+
+.-everforest {
+    color: #c1c1b8;
+    background-color: #2b3238;
+    text-shadow: 2px 2px #69765a, 4px 4px #87b3ae, 6px 6px #d5888a;
+}
+
+.-papercolor-dark {
+    color: #808080;
+    background-color: #1c1c1c;
+    text-shadow: 2px 2px #d7875f, 4px 4px #5faf00, 6px 6px #af005f;
+}
+
+.-monokai {
+    color: #b6d354;
+    background-color: #262626;
+    text-shadow: 2px 2px #ac6d60, 4px 4px #88cff0, 6px 6px #d35371;
+}
+
+.-palenight {
+    color: #a7a9b9;
+    background-color: #2a2d3e;
+    text-shadow: 2px 2px #9880b2, 4px 4px #967d45, 6px 6px #b9d09d;
+}
+
+.-solarized {
+    color: #818f8b;
+    background-color: #002732;
+    text-shadow: 2px 2px #b58900, 4px 4px #2aa08a, 6px 6px #2687c6;
+}
+
+
+/* ----------------------Light----------------------*/
+
+.-bluloco {
+    color: #383a42;
+    background-color: #f9f9f9;
+    text-shadow: 2px 2px #23974a, 4px 4px #d52753, 6px 6px #ce33c0;
+}
+
+.-papercolor-light {
+    color: #0087af;
+    background-color: #eeeeee;
+    text-shadow: 2px 2px #8700af, 4px 4px #d75f00, 6px 6px #d70000;
+}
