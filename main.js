@@ -8,7 +8,7 @@ function createWindow() {
         autoHideMenuBar: true,
         width: 1366,
         height: 768,
-        icon: __dirname + '/src/clock.png',
+        icon: __dirname + '/src/clock.ico',
         webPreferences: {
             preload: path.join(__dirname, 'preload.js')
         }
