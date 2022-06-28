@@ -6,6 +6,7 @@ function createWindow() {
     // Create the browser window.
     const mainWindow = new BrowserWindow({
         autoHideMenuBar: true,
+        titleBarStyle: 'hidden',
         width: 1366,
         height: 768,
         icon: __dirname + '/src/clock.ico',
