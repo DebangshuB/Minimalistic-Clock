@@ -1,7 +1,8 @@
 let clock = document.querySelector(".clock");
 let date = document.querySelector(".date");
-let button = document.querySelector(".btn");
-let parent = document.querySelector("#parent");
+let button = document.querySelector(".btn-theme");
+let parent = document.querySelector(".parent");
+let body = document.querySelector("body");
 
 fetch('./style.css')
     .then(response => response.text())
@@ -15,7 +16,7 @@ pos = 1;
 // Theme changer
 button.onclick = function() {
     button.innerHTML = themes[pos % themes.length].slice(2, -2);
-    parent.className = themes[pos++ % themes.length].slice(1, -2)
+    body.className = themes[pos++ % themes.length].slice(1, -2)
 };
 
 // Date updater

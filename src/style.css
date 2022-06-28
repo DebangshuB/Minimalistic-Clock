@@ -10,6 +10,13 @@
 
 body {
     background: #151515;
+    height: 100vh;
+    width: 100vw;
+    -webkit-app-region: drag;
+    -webkit-user-select: none;
+}
+
+.parent {
     position: fixed;
     text-align: center;
     top: 50%;
@@ -36,12 +43,13 @@ body {
     display: inline-block;
     color: inherit;
     background-color: transparent;
-    width: 100%;
     font-style: italic;
     font-size: 1vw;
     padding-top: 2%;
     cursor: pointer;
     user-select: none;
+    /* For click-ability */
+    -webkit-app-region: no-drag;
 }
 
 
